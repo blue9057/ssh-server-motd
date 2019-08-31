@@ -1,5 +1,8 @@
 #!/bin/bash
 
+git submodule init
+git submodule sync
+git submodule update
 
 # install TIL
 pushd TerminalImageViewer/src/main/cpp/
