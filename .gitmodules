@@ -1,0 +1,3 @@
+[submodule "TerminalImageViewer"]
+	path = TerminalImageViewer
+	url = https://github.com/stefanhaustein/TerminalImageViewer
