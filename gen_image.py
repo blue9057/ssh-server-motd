@@ -15,7 +15,8 @@ while (not image_name in images):
 print(image_name)
 
 # copy file to etc
-#os.system("sudo cp %s /etc/%s.jpg" % (image_name, server_name))
+os.system("sudo cp %s /etc/%s.jpg" % (image_name, server_name))
+
 with open("01-motd", 'wb') as f:
     code = """#!/bin/bash
 tiv /etc/%s.jpg -w 50 -h 33

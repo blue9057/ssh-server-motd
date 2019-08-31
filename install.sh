@@ -18,6 +18,9 @@ sudo chmod +x /etc/update-motd.d/01-motd
 
 pushd /etc/update-motd.d
 sudo mkdir not-used
-mv 10-help-text not-used
-mv 50-motd-news not used
+sudo mv 10-help-text not-used
+sudo mv 50-motd-news not-used
+sudo mv 80-livepatch not-used
 popd
+
+sudo mv /etc/legal /etc/legal.not
